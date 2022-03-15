@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: dm-procedure-automatic-debit
-  cloud:
-    config:
-      uri: ${CONFIG_SERVER_URL}
