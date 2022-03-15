@@ -82,7 +82,7 @@ public class PROY1822ESC001 {
 	public void Cuenta_Metas_Residencia_Fiscal_Peru() throws InterruptedException {
 
 		// procedureLegacyRepository.eliminaTablas(AFFILIATE_ID);
-String texto="Felicidades";
+        String texto="a";
 		assertTrue(texto.contains("Felicidades"));
 		
 		//inicioSesion.ingresarUsuarioYContrasenia("03063218", "1111");
