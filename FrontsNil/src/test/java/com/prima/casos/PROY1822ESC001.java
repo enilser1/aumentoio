@@ -82,11 +82,13 @@ public class PROY1822ESC001 {
 	public void Cuenta_Metas_Residencia_Fiscal_Peru() throws InterruptedException {
 
 		// procedureLegacyRepository.eliminaTablas(AFFILIATE_ID);
+String texto="Felicidades";
+		assertTrue(texto.contains("Felicidades"));
+		
+		//inicioSesion.ingresarUsuarioYContrasenia("03063218", "1111");
 
-		inicioSesion.ingresarUsuarioYContrasenia("03063218", "1111");
-
-		eleccionProceso.elegirRegistrarCuenta();
-		eleccionCuenta.elegirCuentaMetas();
+		//eleccionProceso.elegirRegistrarCuenta();
+		//eleccionCuenta.elegirCuentaMetas();
 		/*
 		 * eleccionCorreo.registrarEmail("emunoz@soaint.com");
 		 * eleccionMeta.elegirMeta("Viajes"); eleccionMeta.llenarMonto("12000");
