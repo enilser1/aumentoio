@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [SuiteNil]" verbose="0">
+  <parameter name="url" value="https://webtran-apv-desa.azureedge.net/login"/>
+  <parameter name="browserType" value="chrome"/>
+  <test parallel="none" name="Test on Chrome(failed)">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.prima.casos.PROY1822ESC001">
+        <methods>
+          <include name="afterClass"/>
+          <include name="MetaMayorDiezMil_MetaViaje_Y_CorreoNuevo"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.prima.casos.PROY1822ESC001 -->
+    </classes>
+  </test> <!-- Test on Chrome(failed) -->
+</suite> <!-- Failed suite [SuiteNil] -->

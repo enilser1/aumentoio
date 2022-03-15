@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteNil">
+<parameter name="url" value="https://webtran-apv-desa.azureedge.net/login"></parameter>
+  <!-- <test name="Test on InternetExplorer">
+  <parameter name="browserType" value="internetExplorer"></parameter>
+  
+    <classes>
+      <class name="com.prima.casos.PROY1822ESC001"/>
+    </classes>
+  </test> TestNil -->
+  
+  <test name="Test on Chrome">
+  <parameter name="browserType" value="chrome"></parameter>
+  
+    <classes>
+      <class name="com.prima.casos.PROY1822ESC001"/>
+    </classes>
+  </test> <!-- TestNil -->
+  
+  <!-- <test name="Test on Firefox">
+  <parameter name="browserType" value="fireFox"></parameter>
+  
+    <classes>
+      <class name="com.prima.testng.EleccionFondoTestNG"/>
+    </classes>
+  </test> TestNil -->
+  
+  
+</suite> <!-- SuiteNil -->
