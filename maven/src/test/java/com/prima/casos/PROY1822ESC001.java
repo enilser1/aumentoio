@@ -73,17 +73,18 @@ public class PROY1822ESC001 {
 
 		
 
-		  inicioSesion.ingresarUsuarioYContrasenia("03063218", "1111");
-		  eleccionProceso.elegirRegistrarCuenta();
-		  eleccionCuenta.elegirCuentaMetas();
-		  eleccionCorreo.registrarEmail("emunoz@soaint.com");
-		  eleccionMeta.elegirMeta("Viajes"); eleccionMeta.llenarMonto("12000");
-		  eleccionMeta.clicSiguiente(); eleccionFondo.elegirFondo("1");
-		  eleccionResidenciaFiscal.elegirResidenciaPeru();
-		  confirmacionApertura.confirmarApertura(); 
-		  String texto=verificarApertura.verificarEncabezado("Felicidades");
+		/*
+		 * inicioSesion.ingresarUsuarioYContrasenia("03063218", "1111");
+		 * eleccionProceso.elegirRegistrarCuenta(); eleccionCuenta.elegirCuentaMetas();
+		 * eleccionCorreo.registrarEmail("emunoz@soaint.com");
+		 * eleccionMeta.elegirMeta("Viajes"); eleccionMeta.llenarMonto("12000");
+		 * eleccionMeta.clicSiguiente(); eleccionFondo.elegirFondo("1");
+		 * eleccionResidenciaFiscal.elegirResidenciaPeru();
+		 * confirmacionApertura.confirmarApertura(); String
+		 * texto=verificarApertura.verificarEncabezado("Felicidades");
+		 */
 		  
-
+          String texto="incorrecto";
 		  
 		  assertTrue(texto.contains("Felicidades"));
 		 
