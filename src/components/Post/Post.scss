@@ -1,0 +1,12 @@
+.post {
+  display: inline-block;
+  flex-shrink: 0;
+  background-color: white;
+  padding: 12px;
+  max-width: 275px;
+
+  & .row {
+    display: inline-flex;
+    margin: 14px 0;
+  }
+}

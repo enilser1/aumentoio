@@ -1,0 +1,13 @@
+.post-list {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 640px) {
+  .post-list {
+    justify-content: center;
+  }
+}
